@@ -1,4 +1,4 @@
 # html-css
  Curso de HTML5 e CSS3 do CursoemVideo
 
-<a href='C:\Users\leona\OneDrive\Documentos\estudo\html-css\exercicios\ex001'>exencicioex001</a>
+<a href='https://leonardoalves18.github.io/html-css/exercicios/ex001/index.html'>exencicioex001</a>
