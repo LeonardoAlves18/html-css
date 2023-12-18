@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelasgroup</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 700px;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: rgb(75, 75, 75);
+            color: white;
+        }
+
+        td, th {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .nomes {
+            background-color: rgb(18, 207, 207);
+        }
+
+        .especificacoes {
+            background-color: aqua;
+        }
+
+        .prof {
+            background-color: rgb(0, 183, 196);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nomes">
+            <col class="especificacoes" span="2">
+            <col class="prof">
+        </colgroup>
+        <caption>Dados Dos Demais</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>profição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Arquiologa</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>F</td>
+                <td>50</td>
+                <td>empregada</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>M</td>
+                <td>29</td>
+                <td>dentista</td>
+            </tr>
+            <tr>
+                <td>Davi</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Desaner grafico</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
