@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+html {
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse artigo foi impresso através dosite www.cursoemvideo.com';
+}
