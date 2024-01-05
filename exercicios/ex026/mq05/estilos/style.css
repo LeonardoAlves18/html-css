@@ -40,11 +40,10 @@ menu {
 
 menu > ul{
     list-style-type: none;
-    text-align: center;
 }
 
 menu > ul > li {
-    margin-top: 5px;
+    text-align: center;
     border-top: 2px solid gray;
     display: block;
     padding: 20px;
