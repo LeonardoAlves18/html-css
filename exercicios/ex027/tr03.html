@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tr03</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+        }
+
+        .back-circle,
+        .box-green,
+        .box-blue,
+        .box-yellow {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+        }
+
+        .back-circle {
+            background-color: red;
+            transition: background-color 1s ease;
+            transition-delay: 4s;
+        }
+
+        .back-circle:hover {
+            background-color: yellow;
+            transition-property: background-color;
+            transition-duration: 1s;
+            transition-delay: 0s;
+        }
+
+        .box-green {
+            background-color: green;
+            transition: all 1s linear 2s;
+
+        }
+
+        .box-green:hover {
+            transition: all 1s cubic-bezier(.29, 1.01, 1, -0.68);
+            background-color: rgb(255, 0, 242);
+            transition: all ;
+            height: 300px;
+            width: 300px;
+            border-radius: 8px;
+        }
+
+        .box-blue {
+            background: blue;
+            transition: width 2s linear 1s;
+        }
+
+        .box-blue:hover {
+            transition: width 2s linear 1s;
+            width: 200px;
+        }
+
+        .box-yellow {
+            background-color: yellow;
+            transition: opacity 3s linear 3s;
+        }
+
+        .box-yellow:hover {
+            opacity: 0;
+            transition: opacity 1s linear 0s;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="back-circle"></div>
+    <div class="box-green"></div>
+    <div class="box-blue"></div>
+    <div class="box-yellow"></div>
+</body>
+</html>
