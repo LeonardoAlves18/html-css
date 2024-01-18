@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation-fill</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 109px;
+            border-radius: 100%;
+            background-color: red;
+            position: relative;
+
+            animation-name: exemple-for;
+            animation-fill-mode: both;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes exemple-for {
+            from {
+                left: 0;
+                background-color: aqua;
+            }
+
+            to {
+                left: calc(100% - 100px);
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
